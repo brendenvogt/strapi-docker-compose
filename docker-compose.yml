@@ -19,7 +19,7 @@ services:
     ports: 
       - 8080:1337
     volumes:
-      - C:/srv/strapi:/usr/src/api/strapi-app
+      - ./strapi/strapi-app:/usr/src/api/strapi-app
 
   db:
     image: mariadb:latest
